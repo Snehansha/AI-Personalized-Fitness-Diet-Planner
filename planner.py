@@ -4,9 +4,6 @@ from pprint import pprint
 
 st.set_page_config(page_title="AI Fitness & Diet Planner", page_icon="💪", layout="wide")
 
-# ----------------------------
-# Workout and Meal Data
-# ----------------------------
 DEFAULT_EXERCISES = {
     "no_equipment": {
         "full_body": [("Push-ups", "3x8-15"), ("Bodyweight Squats", "3x12-20"), ("Plank", "3x30-60s")],
@@ -27,9 +24,6 @@ MEALS = [
     {"name": "Rice & Dal", "category": "Lunch", "cuisine": "Indian", "calories": 320, "protein": 12, "carbs": 55, "fat": 4, "cost": 35, "diet": "Vegetarian"}
 ]
 
-# ----------------------------
-# Functions
-# ----------------------------
 def generate_workout_plan(goal, level, equipment):
     eq = "no_equipment" if equipment in ["none", "minimal"] else "basic_gym"
     plan = []
@@ -50,9 +44,6 @@ def generate_meal_plan(cuisine, diet_preference):
 def calculate_bmi(weight, height):
     return round(weight / ((height/100)**2), 1)
 
-# ----------------------------
-# Streamlit UI
-# ----------------------------
 st.title("💪 AI Personalized Fitness & Diet Planner")
 st.write("Create a fully personalized workout and meal plan based on your goals, body stats, and preferences.")
 
@@ -97,3 +88,4 @@ if st.button("Generate My Plan"):
 
 st.markdown("---")
 st.caption("Created by Snehansha Das • Powered by AI 🧠")
+
