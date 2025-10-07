@@ -33,37 +33,48 @@ Designed for **students and fitness enthusiasts** who want **practical, AI-drive
 
    ```bash
    python -m venv venv
-Activate the virtual environment
+2. **Activate the virtual environment**
+-
+ **Windows:**
 
-Windows
+   ```bash
+   \venv\Scripts\activate
+   
+**Mac/Linux:** 
 
-bash
-Copy code
-.\venv\Scripts\activate
-Mac/Linux
+   ```bash
+   source venv/bin/activate
+```
+3. **Install dependencies**
 
-bash
-Copy code
-source venv/bin/activate
-Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   
+4. **Run the Streamlit app**
 
-bash
-Copy code
-pip install -r requirements.txt
-🚀 Usage
-Run the Streamlit app
+   ```bash
+   streamlit run planner.py
 
-bash
-Copy code
-streamlit run app.py
-Steps to use the app
+## Usage
+- Enter your gender, age, weight, height, and fitness goal in the sidebar.
+- Select equipment availability and cuisine/dietary preference.
+- Click Generate My Plan.
+- View your daily workout and meal plan in expandable sections.
+- Check the nutritional overview chart for calories and macronutrients.
 
-Enter your gender, age, weight, height, and fitness goal in the sidebar.
+## Tech Stack
+- Python 
+- Streamlit
+- Pandas / NumPy
+- Matplotlib / Plotly
+- AI-based personalization logic
 
-Select equipment availability and cuisine/dietary preference.
+## License
 
-Click Generate My Plan.
+This project is licensed under the MIT License
 
-View your daily workout and meal plan in expandable sections.
 
-Check the nutritional overview chart for calories and macronutrients.
+   
+   
+
+
