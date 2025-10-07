@@ -1,0 +1,9 @@
+streamlit==1.26.0
+pandas
+numpy
+python-dateutil
+pydantic
+scikit-learn
+python-dotenv
+fpdf
+sqlalchemy

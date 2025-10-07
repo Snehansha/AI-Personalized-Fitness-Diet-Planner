@@ -1,0 +1,13 @@
+id,name,category,cuisine,calories,protein,carbs,fat,cost,ingredients,instructions
+1,Moong Dal Khichdi,main,Indian,380,14,60,8,40,"moong dal;rice;ghee;turmeric;salt;carom seeds","Cook dal and rice together with turmeric and ghee. Temper with cumin and carom seeds."
+2,Vegetable Upma,main,Indian,320,8,56,7,35,"semolina;mixed vegetables;mustard seeds;curry leaves;onion","Roast semolina. Saute vegetables and spices; add water and cooked semolina."
+3,Chole Masala,main,Indian,420,16,60,10,50,"chickpeas;onion;tomato;spices;oil","Soak chickpeas; cook with onion-tomato gravy and spices."
+4,Grilled Chicken Breast,main,Western,220,40,0,5,80,"chicken breast;olive oil;salt;pepper","Marinate and grill until internal temp 75C."
+5,Quinoa Salad,main,International,360,12,45,10,70,"quinoa;cherry tomatoes;cucumber;olive oil;lemon","Cook quinoa; toss with veggies and dressing."
+6,Paneer Bhurji,main,Indian,310,18,8,20,60,"paneer;onion;tomato;turmeric;oil","Crumble paneer and sauté with onions, tomatoes and spices."
+7,Oatmeal with Banana,breakfast,International,260,6,52,4,20,"oats;milk;banana;honey","Cook oats in milk; top with banana and honey."
+8,Masala Omelette,breakfast,International,200,14,2,14,25,"eggs;onion;tomato;green chili;oil","Beat eggs with spices; cook in a pan."
+9,Curd Rice,main,Indian,300,8,50,7,25,"rice;curd;salt;mustard","Mix cooked rice and curd; season."
+10,Poha,breakfast,Indian,280,6,50,6,30,"flattened rice;onion;mustard;peanuts","Saute ingredients; add poha and steam briefly."
+11,Black Bean Burrito,main,International,480,18,70,12,90,"tortilla;black beans;rice;cheese;tomato","Assemble and warm tortilla with fillings."
+12,Greek Yogurt Parfait,snack,International,180,10,20,4,30,"greek yogurt;granola;berries","Layer yogurt, granola, and berries."
